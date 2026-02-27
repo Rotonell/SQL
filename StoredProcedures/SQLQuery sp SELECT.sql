@@ -1,4 +1,5 @@
 USE PV_521_Import
+SET DATEFIRST 1;
 GO
 
 ALTER PROCEDURE sp_SelectSheduleFor @group		AS NCHAR(10)
